@@ -1,0 +1,19 @@
+// Block
+.card {
+  width: 200px;
+  // Element
+  &__title {
+    text-align: center;
+    font-size: 20px;
+
+    // Modifier
+    &--fc-white {
+      color: #fff;
+    }
+  }
+
+  //Element
+  &__text {
+    font-size: 16px;
+  }
+}
